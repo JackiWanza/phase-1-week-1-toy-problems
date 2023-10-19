@@ -1,5 +1,6 @@
 // function declaraction
 function calculateGrade() {
+    // how to ask for input
     let input = parseInt(prompt("enter the student's marks (0-100)"))
     if (0 <= input && input <= 100) {
         if (input > 79) {
